@@ -8,12 +8,12 @@ DocMeta.setdocmeta!(
 makedocs(;
     modules=[DelaySSAToolkit],
     authors="Xiaoming Fu",
-    repo="https://github.com/xiaomingfu2013/DelaySSAToolkit.jl/blob/{commit}{path}#{line}",
+    repo="https://github.com/palmtree2013/DelaySSAToolkit.jl/blob/{commit}{path}#{line}",
     sitename="DelaySSAToolkit.jl",
     format=Documenter.HTML(;
         mathengine=Documenter.Writers.HTMLWriter.MathJax2(),
         prettyurls=get(ENV, "CI", "false") == "true",
-        canonical="https://xiaomingfu2013.github.io/DelaySSAToolkit.jl",
+        canonical="https://palmtree2013.github.io/DelaySSAToolkit.jl",
         assets=String[],
     ),
     pages=[
@@ -38,4 +38,4 @@ makedocs(;
     warnonly=true,
 )
 
-deploydocs(; repo="github.com/xiaomingfu2013/DelaySSAToolkit.jl", devbranch="main")
+deploydocs(; repo="github.com/palmtree2013/DelaySSAToolkit.jl", devbranch="main")
