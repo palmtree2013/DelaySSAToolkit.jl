@@ -2,7 +2,7 @@
 
 | **Documentation** | **Build Status** |
 |:-----------------:|:----------------:|
-| [![doc dev badge](https://img.shields.io/badge/docs-dev-blue.svg)](https://xiaomingfu2013.github.io/DelaySSAToolkit.jl/dev/) | [![ci badge](https://github.com/xiaomingfu2013/DelaySSAToolkit.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/xiaomingfu2013/DelaySSAToolkit.jl/actions/workflows/CI.yml?query=branch%3Amain) [![cov badge](https://codecov.io/gh/xiaomingfu2013/DelaySSAToolkit.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/xiaomingfu2013/DelaySSAToolkit.jl) |
+| [![doc dev badge](https://img.shields.io/badge/docs-dev-blue.svg)](https://palmtree2013.github.io/DelaySSAToolkit.jl/dev/) | [![ci badge](https://github.com/palmtree2013/DelaySSAToolkit.jl/actions/workflows/CI.yml/badge.svg?branch=main)](https://github.com/palmtree2013/DelaySSAToolkit.jl/actions/workflows/CI.yml?query=branch%3Amain) [![cov badge](https://codecov.io/gh/palmtree2013/DelaySSAToolkit.jl/branch/main/graph/badge.svg)](https://codecov.io/gh/palmtree2013/DelaySSAToolkit.jl) |
 
 DelaySSAToolkit.jl is a tool developed on top of [JumpProcesses.jl](https://github.com/SciML/JumpProcesses.jl) in Julia which solves the stochastic simulation [[1]](#1) coupled with delays. A portion of this library’s code is taken from the MIT licensed JumpProcesses.jl library.
 
@@ -19,7 +19,7 @@ That code is copyright (c) 2017: Chris Rackauckas. This package contains the fol
   - Priority queue and dependency graph are integrated for high computational performance;
   - Ecosystem with [Catalyst.jl](https://github.com/SciML/Catalyst.jl), [JumpProcesses.jl](https://github.com/SciML/JumpProcesses.jl), [DifferentialEquations.jl](https://github.com/JuliaDiffEq/DifferentialEquations.jl) and more...
 
-More information is available in the [documentation](https://xiaomingfu2013.github.io/DelaySSAToolkit.jl/dev/). Please feel free to open issues and submit pull requests!
+More information is available in the [documentation](https://palmtree2013.github.io/DelaySSAToolkit.jl/dev/). Please feel free to open issues and submit pull requests!
 
 ## Installation
 
@@ -41,7 +41,7 @@ Pkg.add("Catalyst")
 
 ### SEIR model
 
-Check [this example](https://xiaomingfu2013.github.io/DelaySSAToolkit.jl/dev/tutorials/tutorials/) for more details.
+Check [this example](https://palmtree2013.github.io/DelaySSAToolkit.jl/dev/tutorials/tutorials/) for more details.
 
 ```julia
 using Catalyst
@@ -92,7 +92,7 @@ plot(
 
 ### A bursty model [[7]](#7)
 
-Check this [example](https://xiaomingfu2013.github.io/DelaySSAToolkit.jl/dev/tutorials/bursty/) for more details.
+Check this [example](https://palmtree2013.github.io/DelaySSAToolkit.jl/dev/tutorials/bursty/) for more details.
 
 ```julia
 using DelaySSAToolkit

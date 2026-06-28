@@ -38,7 +38,7 @@ $(FIELDS)
 
 - `delay_interrupt_set::Vector{Int}`: collection of  indices of reactions that can interrupt the delay reactions.
 
-We take this [model](https://xiaomingfu2013.github.io/DelaySSAToolkit.jl/dev/tutorials/delay_degradation/) for example.
+We take this [model](https://palmtree2013.github.io/DelaySSAToolkit.jl/dev/tutorials/delay_degradation/) for example.
 ```julia
 # Take the following example
 # C: 0 --> X_A
